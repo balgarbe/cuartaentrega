@@ -1,0 +1,450 @@
+@charset "UTF-8";
+* {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bodyIndex {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-style: normal;
+}
+
+/* sección listas nav principal */
+.header-banner {
+  background-image: url(../img/IMG-7252.jpg);
+  background-color: #adb6c4;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.tituloBanner {
+  background-color: #294c60;
+  font-size: 50px;
+  color: #adb6c4;
+  padding: 0px;
+  margin: 0px;
+  -webkit-animation-name: animacion2;
+          animation-name: animacion2;
+  -webkit-animation-duration: 10s;
+          animation-duration: 10s;
+  position: relative;
+  -webkit-animation-direction: normal;
+          animation-direction: normal;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes animacion2 {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 300px;
+    top: 0px;
+  }
+  50% {
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+@keyframes animacion2 {
+  0% {
+    left: 0px;
+    top: 0px;
+  }
+  25% {
+    left: 300px;
+    top: 0px;
+  }
+  50% {
+    left: 0px;
+    top: 0px;
+  }
+  75% {
+    left: 300px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.fondo__titulobanner {
+  background-color: #294c60;
+}
+
+.header__navegador--Principal {
+  background-color: #adb6c4;
+  padding: 50px;
+  list-style-type: style none;
+  list-style-type: lower-roman;
+  list-style-position: outside;
+}
+
+.header__navegador--Principal li {
+  display: inline-block;
+}
+
+.header__navegador--Principal a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2rem;
+  color: #ffefd3;
+  padding: 1Rem;
+  background-color: #ffc49b;
+}
+
+.mainIndex {
+  background-color: #ffefd3;
+  font-style: initial;
+}
+
+.tituloMain {
+  font-size: 50px;
+  color: #adb6c4;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+  table-layout: fixed;
+  font-size: 3vh;
+  text-align: center;
+}
+
+.experiencias {
+  text-align: center;
+  margin: 100px;
+  font-size: x-large;
+}
+
+.pie {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-text-decoration: beige;
+          text-decoration: beige;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #294c60;
+  color: beige;
+}
+
+/* sección contacto */
+.fondoContacto {
+  background-image: url(../img/IMG-7251.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.contacto {
+  padding: 1rem;
+  margin: 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.contacto-form {
+  padding: 2rem;
+  max-width: 500px;
+  width: 60vh;
+  line-height: 2vh;
+  margin: 2vh;
+  background-color: #ffefd3;
+}
+
+.contacto-form__input {
+  margin-bottom: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0,5rem;
+  border: none;
+  color: #294c60;
+  width: 100%;
+  background-color: white;
+}
+
+.btnEnviar {
+  width: 50%;
+  background-color: #ffc49b;
+  border-color: #294c60;
+  border: 2px solid;
+  border-radius: 0,3rem;
+  cursor: pointer;
+  padding: 0,4rem;
+  font-weight: 700;
+  font-size: 1rem;
+  color: whitesmoke;
+  margin-left: 25%;
+}
+
+.btnEnviar :hover {
+  background-color: turquoise;
+  font-size: 2%;
+}
+
+/* Sección Servicios-Flex */
+.bodyFlex {
+  background-color: #001b2e;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.serviciosFlex {
+  background-color: #ffefd3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-ordinal-group: inherit;
+      -ms-flex-order: inherit;
+          order: inherit;
+  -ms-flex-flow: nowrap;
+      flex-flow: nowrap;
+}
+
+.serviciosFlex img {
+  width: 25vw;
+  height: 85vh;
+}
+
+.contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #294c60;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contenedor-imagen {
+  width: 50%;
+}
+
+.contenido img {
+  width: 100%;
+}
+
+.textoFlex {
+  width: 50%;
+  color: white;
+  font-size: 1rem;
+  padding: 2rem;
+  margin: 0rem;
+  line-height: 25px;
+}
+
+.serviciosTipos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #ffefd3;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-ordinal-group: inherit;
+      -ms-flex-order: inherit;
+          order: inherit;
+  -ms-flex-flow: nowrap;
+      flex-flow: nowrap;
+}
+
+.serviciosTipos img {
+  width: 50vw;
+  height: 100vh;
+}
+
+/* Sección Catering */
+.productos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #ffefd3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-ordinal-group: inherit;
+      -ms-flex-order: inherit;
+          order: inherit;
+  height: 600px;
+}
+
+.itema {
+  background-image: url(../img/640A27D6-650C-4A88-B6A0-96258957D784.JPG);
+  background-size: cover;
+  height: 600px;
+  width: 600px;
+}
+
+.itemb {
+  background-image: url(../img/IMG-5768.jpg);
+  background-size: cover;
+  height: 600px;
+  width: 600px;
+}
+
+.itemc {
+  background-image: url(../img/IMG-7113.jpg);
+  background-size: cover;
+  height: 600px;
+  width: 600px;
+}
+
+.productos2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #ffefd3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-ordinal-group: inherit;
+      -ms-flex-order: inherit;
+          order: inherit;
+  height: 500px;
+}
+
+.productos3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: #ffefd3;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-ordinal-group: inherit;
+      -ms-flex-order: inherit;
+          order: inherit;
+  height: 300px;
+}
+
+.itemd {
+  background-image: url(../img/IMG-5767.jpg);
+  background-size: cover;
+  height: 600px;
+  width: 600px;
+}
+
+.iteme {
+  background-image: url(../img/IMG-6918.jpg);
+  background-size: cover;
+  height: 600px;
+  width: 600px;
+}
+
+.itemf {
+  background-image: url(../img/IMG-6199.jpg);
+  background-size: cover;
+  height: 600px;
+  width: 600px;
+}
+
+/* Sección Galería */
+.fotosGaleria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fotosGaleria img {
+  width: 75vh;
+  height: 100vh;
+}
+
+/* sección nosotros */
+.nosotrosFondo {
+  background-image: url(../img/IMG-7856.jpg);
+  background-position: center;
+  background-size: 100%;
+}
+
+.nosotrosText {
+  background-color: #ffefd3;
+  width: 50%;
+  color: #294c60;
+  font-size: 1rem;
+  padding: 2rem;
+  margin: 2rem;
+  line-height: 25px;
+}
+/*# sourceMappingURL=formato.css.map */
