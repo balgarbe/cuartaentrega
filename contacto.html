@@ -24,54 +24,44 @@
             </ul>
         </nav>
     </header>
-    <section class="contacto">
+        <div class="preform">
 
-    <form class="contacto-form" action="">
-        <fieldset class="">
-        
-            <legend> Formulario Consulta</legend>
-            <div>
-            <label for="name">Nombre</label>
-            <input class="contacto-form__input" id="name" type="text" name="name" placeholder="Ingresa tu nombre" required>
-            </div>
-            
-            <label for="apellido"> Apellido</label>
-            <input class="contacto.form__input" id="apellido" type="text" name="apellido" placeholder="Ingresa tu apellido" required>
-        
-           <div>
-            <label for="tipo"> Tipo de Evento: </label>
-            <select name="tipo" id="tipo">
-                <option value="infantil"> Infantil</option>
-                <option value="social"> Social</option>
-                <option value="personalizado">Personalizado</option>
-            </select>
         </div>
-
- 
-            <div>
-            <label for="consulta"> Escribí tu consulta</label>
+    <form class="row g-3 needs-validation" novalidate>
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip01" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="validationTooltip01" value="" required>
+          <div class="valid-tooltip">
+            Perfecto!
+          </div>
         </div>
-
-            <textarea name="consulta" id="consulta" cols="30" rows="3" maxlength="500"></textarea>
-
-            <div>Eventos</div>
-            <label for="infantil">Evento Infantil</label>
-            <input type="checkbox" id="infantil" name="cbox1"> 
-            <label for="social">Evento Social</label>
-            <input type="checkbox" id="social" name="cbox2"> 
-            <label for="personalizado">Evento Personalizado</label>
-            <input type="checkbox" id="personalizado" name="cbox3"> 
-            
-
-            
-    
-            <div>
-            <input class="btnEnviar" type="submit" value="Enviar">
-            <input type="reset" value="Limpiar formulario">
+        <div class="col-md-4 position-relative">
+          <label for="validationTooltip02" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="validationTooltip02" value="" required>
+          <div class="valid-tooltip">
+            Perfecto!
+          </div>
         </div>
-        </fieldset>
-    </form>
-     </section>
+        <div class="col-md-6 position-relative">
+          <label for="validationTooltip03" class="form-label">Teléfono</label>
+          <input type="text" class="form-control" id="validationTooltip03" required>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip04" class="form-label">Tipo de Evento</label>
+          <select class="form-select" id="validationTooltip04" required>
+            <option selected disabled value="">Social</option>
+            <option>Infantil</option>
+            <option>Otro</option>
+          </select>
+        </div>
+        <div class="col-md-3 position-relative">
+          <label for="validationTooltip05" class="form-label">Email</label>
+          <input type="text" class="form-control" id="validationTooltip05" required>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Enviar Formualrio</button>
+        </div>
+      </form>
      <footer class="pie">
         <nav>
             <ul>

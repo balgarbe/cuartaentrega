@@ -53,12 +53,13 @@
     }
 }
 .fondo__titulobanner{
-    background-color: rgb(41, 76, 96);;
+    background-color: rgb(41, 76, 96);
+    overflow: hidden;
 }
 
 .header__navegador--Principal{
     background-color: rgb(173, 182, 196);
-    padding: 50px;
+    padding: 25px;
     list-style-type: style none;;
     list-style-type: lower-roman;
     list-style-position: outside;
@@ -73,7 +74,7 @@
     text-transform: uppercase;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
     color: rgb(255, 239, 211);
     padding: 1Rem;
     background-color: rgb(255, 196, 155);
@@ -83,7 +84,7 @@
     font-style: initial;
 }
 .tituloMain{
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(173, 182, 196);
     text-align: center;
 }
@@ -91,7 +92,7 @@ table,th,td{
 border: 1px solid black;
 padding: 5px;
 table-layout:fixed;
-font-size: 3vh;
+font-size: 2vh;
 text-align: center;
 
 }
@@ -108,52 +109,15 @@ text-align: center;
     color: beige;
 }
 /* sección contacto */
-.fondoContacto{
-    background-image: url(../img/IMG-7251.jpg);
-    background-position: center;
+.preform{
+    display: flex;
+    height: 30rem;
+    width: 92rem;
+    background-image: url(../img/IMG-7428.jpg);
     background-size: cover;
-}
-.contacto{
-    padding: 1rem;
-    margin: 1rem;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    background-size: cover;
-}  
-.contacto-form{
-    padding: 2rem;
-    max-width: 500px;
-    width: 60vh;
-    line-height: 2vh;
-    margin: 2vh;
-    background-color: rgb(255, 239, 211);
-}
-.contacto-form__input{
-    margin-bottom: 1rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    padding: 0,5rem;
-    border: none;
-    color: rgb(41, 76, 96);
-    width: 100%;
-    background-color: white;
-}
-.btnEnviar{
-    width: 50%;
-    background-color: rgb(255, 196, 155);
-    border-color: rgb(41, 76, 96);
-    border: 2px solid;
-    border-radius: 0,3rem;
-    cursor: pointer;
-    padding: 0,4rem;
-    font-weight: 700;
-    font-size: 1rem;
-    color: whitesmoke;
-    margin-left: 25%;
-}
-.btnEnviar :hover{
-    background-color: turquoise;
-    font-size: 2%;
+    background-position: center;
+    
 }
 /* Sección Servicios-Flex */
 .bodyFlex{
